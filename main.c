@@ -67,6 +67,9 @@ takeMainInputAgain:
     case 2:
         subtractNumbers();
         break;
+    case 6:
+        CubeANumber();
+        break;
     default:
         printf("Wrong choice, choose correct option: ");
         goto takeMainInputAgain;
