@@ -4,7 +4,7 @@ void sumNumbers()
     int n, sum = 0, temp;
 
     system("cls");
-    printf("************* Addition Section *************\n");
+    printf("************* Add Numbers *************\n");
     printf("How many numbers you want to add: ");
     scanf("%d", &n);
 

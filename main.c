@@ -64,6 +64,9 @@ takeMainInputAgain:
     case 1:
         sumNumbers();
         break;
+    case 2:
+        subtractNumbers();
+        break;
     default:
         printf("Wrong choice, choose correct option: ");
         goto takeMainInputAgain;
