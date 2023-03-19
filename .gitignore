@@ -1,0 +1,4 @@
+# ignoring the executable files
+
+.vscode
+*.exe
