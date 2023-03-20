@@ -64,6 +64,9 @@ takeMainInputAgain:
     case 1:
         sumNumbers();
         break;
+    case 5:
+        squareANumber();
+        break;
     case 6:
         CubeANumber();
         break;
