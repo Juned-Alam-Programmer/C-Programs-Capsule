@@ -67,6 +67,9 @@ takeMainInputAgain:
     case 2:
         subtractNumbers();
         break;
+        case 3:
+        multiplyANumber();
+        break;
     case 5:
         squareANumber();
         break;
