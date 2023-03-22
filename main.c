@@ -70,6 +70,9 @@ takeMainInputAgain:
         case 3:
         multiplyANumber();
         break;
+        case 4:
+        divideNumber();
+        break;
     case 5:
         squareANumber();
         break;

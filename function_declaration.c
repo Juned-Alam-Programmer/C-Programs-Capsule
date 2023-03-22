@@ -6,3 +6,4 @@ void subtractNumbers();
 void CubeANumber();
 void squareANumber();
 void multiplyANumber();
+void divideNumber();
