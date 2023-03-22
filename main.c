@@ -35,6 +35,9 @@ takeMainInputAgain:
     case 1:
         calculation();
         break;
+    case 3:
+        patternPrinting();
+        break;
     default:
         printf("Wrong choice, choose correct option: ");
         goto takeMainInputAgain;
@@ -67,10 +70,10 @@ takeMainInputAgain:
     case 2:
         subtractNumbers();
         break;
-        case 3:
+    case 3:
         multiplyANumber();
         break;
-        case 4:
+    case 4:
         divideNumber();
         break;
     case 5:
@@ -78,6 +81,29 @@ takeMainInputAgain:
         break;
     case 6:
         CubeANumber();
+        break;
+    default:
+        printf("Wrong choice, choose correct option: ");
+        goto takeMainInputAgain;
+        break;
+    }
+}
+void patternPrinting()
+{
+    int takeinput;
+
+    system("cls");
+    printf("************* Pattern Section *************\n");
+    printf("Please, Choose an option:\n");
+    printf("[1] Pattern 1.\n");
+    printf("Your choice:");
+takeMainInputAgain:
+    scanf("%d", &takeinput);
+
+    switch (takeinput)
+    {
+    case 1:
+        pattern1();
         break;
     default:
         printf("Wrong choice, choose correct option: ");

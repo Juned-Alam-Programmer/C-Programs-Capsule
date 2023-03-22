@@ -4,3 +4,4 @@
 #include "square_of_a_number.c"
 #include "multiplication_of_numbers.c"
 #include "division_of_numbers.c"
+#include "pattern1.c"

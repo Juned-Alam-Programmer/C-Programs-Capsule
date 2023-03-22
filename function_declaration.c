@@ -7,3 +7,5 @@ void CubeANumber();
 void squareANumber();
 void multiplyANumber();
 void divideNumber();
+void patternPrinting();
+void pattern1();
